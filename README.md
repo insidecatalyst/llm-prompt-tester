@@ -2,6 +2,8 @@
 
 A Streamlit-based tool that makes refining LLM prompts easier.
 
+![LLM Prompt Tester Screenshot](./screenshot.png)
+
 ## Installation
 
 ### 1️⃣ Create a virtual environment and install dependencies
