@@ -28,10 +28,6 @@ def main():
     col1, col2 = st.columns(2, gap="large")
     
     with col1:
-        # logo_url = 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=700,fit=crop,q=95/d957l7L1g4Co6ybO/the-catalyst-studio---logo-full-white-YD0Bn0Kp3rcB9oNa.webp'
-
-        # st.
-
         try:
             models_response = requests.get(f"{openwebui_url}/models", headers=headers).json()
             if 'data' not in models_response:
